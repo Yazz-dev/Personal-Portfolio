@@ -1,0 +1,151 @@
+/* Reset */
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  font-family: "Cormorant Garamond", serif;
+}
+
+/* Navbar */
+.nav-bar {
+  width: 100%;
+  height: 8vh;
+  background-color: black;
+  box-shadow: 5px 0px 5px grey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-bar ul {
+  display: flex;
+  gap: 60px;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.1em;
+}
+
+h2 {
+  color: whitesmoke;
+}
+
+.nav-bar i {
+  color: whitesmoke;
+  padding: 0px 20px;
+}
+
+#starter {
+  color: yellow;
+}
+
+.nav-bar ul li a:hover {
+  border-bottom: 2px solid yellowgreen;
+  border-radius: 7px;
+  padding-bottom: 5px;
+}
+
+/* Main section */
+.main-details {
+  width: 100%;
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 45px;
+}
+
+#text-details {
+  width: 40%;
+  height: 80%;
+  margin-top: 15%;
+}
+
+#block-element {
+  width: 30%;
+  height: auto;
+  display: none;
+}
+
+h1, p {
+  color: whitesmoke;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+p.description {
+  font-size: 1.2em;
+  margin-top: 15px;
+  line-height: 1.5;
+}
+
+/* Buttons */
+.buttons {
+  width: 20vw;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  width: 170px;
+  height: 45px;
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Form */
+#block-element fieldset {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+fieldset legend {
+  color: yellow;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+fieldset input, textarea {
+  height: 40px;
+  padding: 10px;
+  color: black;
+  border-radius: 5px;
+  border: none;
+}
+
+textarea {
+  min-height: 80px;
+  resize: none;
+}
+
+#submit-data {
+  margin: auto;
+  width: 200px;
+  background-color: yellow;
+  border: none;
+  font-weight: bold;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/10456/10456439.png" type="image/x-icon" />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Fontawesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="nav-bar">
+    <h2>Yasir Usman</h2>
+    <ul class="navigations">
+      <li><a id="starter" href="">Home</a></li>
+      <li><a href="">Education</a></li>
+      <li><a href="">Skills</a></li>
+      <li><a href="">Projects</a></li>
+    </ul>
+    <div class="contact-details">
+      <a href=""><i class="fa-brands fa-youtube"></i></a>
+      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+      <a href=""><i class="fa-brands fa-instagram"></i></a>
+      <a href=""><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </nav>
+
+  <!-- Main Section -->
+  <section class="main-details">
+    <div id="text-details">
+      <h1>I'm a <span style="color: #fdfdfd;">Software Developer</span></h1>
+      <p class="description">
+        I am a second year BTech student at College of Engineering Thalaserry, Kannur <br />
+        specializing in Computer Science and Engineering. I am developing a strong foundation in engineering principles and actively enhancing my technical and problem-solving skills.
+      </p>
+      <div class="buttons">
+        <button id="mail-button">Connect with me  ></button>
+        <button id="hire-button">Get Hired  ></button>
+      </div>
+    </div>
+
+    <div id="block-element">
+      <fieldset id="form-email">
+        <legend>Send me an Email</legend>
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <textarea id="large-desc" placeholder="Description"></textarea>
+        <button type="submit" id="submit-data">Submit Data</button>
+      </fieldset>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
