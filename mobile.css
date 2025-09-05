@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#121212 ;
+}
+.nav-bar{
+    width: 100%;
+    height: 9vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    box-shadow: 2px 0px 10px white;
+    border-radius: 5px;
+    
+}
+.name{
+    color: whitesmoke;
+    font-weight: 900;
+    color: orange;
+}
+#bar{
+    color: white;
+    font-size: x-large;
+    background: none;
+    border: none;
+}
+.mobile-li{
+    width: 95%;
+    height: 7vh;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+
+}
+
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+header li{
+    list-style: none;
+}
+.main-content{
+    margin: 20px;
+    padding: 10px;
+}
+.main-content h1{
+    color: whitesmoke;
+    font-size: xx-large;
+}
+.main-content p{
+    color: whitesmoke;
+    font-size: small;
+}
+.main-content .connect{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: orange;
+}
+.icons{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.icons i{
+    color: whitesmoke;
+    margin: 10px;
+    font-size: larger;
+}
+/* form decorations here */
+.form{
+    width: 100%;
+    height: 50vh;
+    align-content: center;
+    display: none;
+    
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    height: 96%;
+    justify-content: space-around;
+    border: 2px solid whitesmoke;
+    
+    
+}
+fieldset legend{
+    color: whitesmoke;
+}
+fieldset input{
+    border: 1px solid black;
+    margin: 25px;
+    padding: 10px;
+}
+fieldset button{
+    margin: 25px;
+    height: 30px;
+    background-color: orange;
+    border: none;
+}
+fieldset textarea{
+    margin: 25px;
+    padding: 10px;
+}
