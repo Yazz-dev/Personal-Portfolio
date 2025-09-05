@@ -6,3 +6,11 @@ function showDiv(){
 }
 
 mailButton.addEventListener('click',showDiv);
+// mobile view responsive
+if (window.innerWidth <= 768){
+    window.location.href = "mobile.html";
+}
+
+
+
+
