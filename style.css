@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   background-color: #121212;
   font-family: "Cormorant Garamond", serif;
@@ -87,6 +88,9 @@ p.description {
   margin-top: 15px;
   line-height: 1.5;
 }
+.mobile-li{
+    display: none;
+}
 
 /* Buttons */
 .buttons {
@@ -149,3 +153,5 @@ textarea {
   border: none;
   font-weight: bold;
 }
+
+
